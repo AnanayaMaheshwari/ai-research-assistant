@@ -1,0 +1,15 @@
+strands-agents[gemini]
+strands-agents-tools
+python-dotenv
+fastapi
+uvicorn[standard]
+streamlit
+sqlalchemy
+pydantic
+requests
+httpx
+ddgs
+beautifulsoup4
+python-docx
+pytest
+pymysql
