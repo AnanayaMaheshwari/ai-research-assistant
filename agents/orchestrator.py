@@ -226,7 +226,7 @@ def run_research(
 
     elif mode == "agents_as_tools":
 
-        from agents.workflows.agents_as_tools import run_as_tools
+        from workflows.agents_as_tools import run_as_tools
 
         output = run_as_tools(
             topic,
@@ -250,7 +250,7 @@ def run_research(
 
     elif mode == "graph":
 
-        from agents.workflows.research_graph import run_graph
+        from workflows.research_graph import run_graph
 
         output = run_graph(
             topic,
@@ -274,7 +274,7 @@ def run_research(
 
     else:
 
-        from agents.workflows.research_swarm import run_swarm
+        from workflows.research_swarm import run_swarm
 
         output = run_swarm(
             topic,
